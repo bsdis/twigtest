@@ -1,0 +1,22 @@
+2012-02-28 02:14:17 Error: [MissingControllerException] Controller class ProfilesController could not be found.
+#0 /home/bdi/Projects/webtests/myapp/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 02:15:48 Error: [MissingControllerException] Controller class ProfilesController could not be found.
+#0 /home/bdi/Projects/webtests/myapp/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 02:15:51 Error: [MissingControllerException] Controller class ProfilesController could not be found.
+#0 /home/bdi/Projects/webtests/myapp/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 02:16:46 Error: [MissingControllerException] Controller class ProfilesController could not be found.
+#0 /home/bdi/Projects/webtests/myapp/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-28 02:17:15 Error: [MissingPluginException] Plugin TwigView could not be found.
+#0 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Core/App.php(357): CakePlugin::path('TwigView')
+#1 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Core/App.php(225): App::pluginPath('TwigView')
+#2 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Core/App.php(535): App::path('View', 'TwigView')
+#3 [internal function]: App::load('TwigView')
+#4 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Controller/Controller.php(923): spl_autoload_call('TwigView')
+#5 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Routing/Dispatcher.php(111): Controller->render()
+#6 /home/bdi/Projects/VendorLibs/php/cakephp/lib/Cake/Routing/Dispatcher.php(86): Dispatcher->_invoke(Object(ProfilesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/bdi/Projects/webtests/myapp/webroot/index.php(98): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
